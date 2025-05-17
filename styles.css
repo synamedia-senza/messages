@@ -1,0 +1,11 @@
+body {
+  width: 1920px;
+  height: 1080px;
+	margin: 0px;
+	background-color: white;
+  overflow: hidden;
+}
+
+body { font-family: Arial, sans-serif; margin: 20px; }
+
+#messageDisplay { margin-top: 20px; font-weight: bold; color: green; }

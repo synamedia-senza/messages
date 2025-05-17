@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Messages</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div id="main">
+
+  <h1>Messages</h1>
+  <input type="text" id="textInput" placeholder="Type your message here" />
+  <button onclick="send()">Send</button>
+
+  <div id="messageDisplay">No messages received yet.</div>
+  </div>
+</body>
+<script type="text/javascript" src="js/config.js"></script>
+<script type="text/javascript" src="js/mqttws31.js"></script>
+<script type="text/javascript" src="js/client.js"></script>
+<script type="text/javascript" src="js/messages.js"></script>
+
+</html>
